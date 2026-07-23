@@ -7,16 +7,21 @@
 <meta name="google-site-verification" content="BDQ9dIN5uDWvBMMSq8h5TeMk4hDknnfcH91B0neRQig" />
 
 <!-- SEO -->
-<title>Connor Hay — Property Practitioner & Athlete | Hillcrest, KZN</title>
-<meta name="description" content="Connor Hay is a Candidate Property Practitioner at McIntosh Properties Group in Hillcrest, KwaZulu-Natal. Former Protea Karate Athlete competing in BJJ, MMA, and Triathlons." />
-<meta name="keywords" content="Connor Hay, property practitioner Hillcrest, McIntosh Properties, real estate KZN, Hillcrest property, KwaZulu-Natal real estate" />
+<title>Connor Hay | Property Practitioner, Protea Karate Athlete &amp; Competitor | Hillcrest, KZN</title>
+<meta name="description" content="Connor Hay — Candidate Property Practitioner at McIntosh Properties in Hillcrest, KZN, and Protea karate athlete competing in BJJ, MMA, kickboxing, and triathlon. Real estate, athletics, and sponsorship enquiries welcome." />
+<meta name="keywords" content="Connor Hay, Connor Hay Hillcrest, Connor Hay property, Connor Hay karate, Connor Hay Protea, property practitioner Hillcrest, McIntosh Properties, real estate KZN, Hillcrest property, KwaZulu-Natal real estate, Protea karate athlete, Connor Hay athlete, Connor Hay sponsorship" />
 <link rel="canonical" href="https://connorhay.co.za/" />
 
 <!-- Open Graph -->
-<meta property="og:title" content="Connor Hay — Property Practitioner & Athlete" />
-<meta property="og:description" content="Candidate Property Practitioner at McIntosh Properties, Hillcrest KZN. Former Protea Karate Athlete." />
+<meta property="og:title" content="Connor Hay | Property Practitioner &amp; Protea Karate Athlete" />
+<meta property="og:description" content="Candidate Property Practitioner at McIntosh Properties, Hillcrest KZN. Protea karate athlete competing in BJJ, MMA, kickboxing, and triathlon." />
 <meta property="og:url" content="https://connorhay.co.za/" />
 <meta property="og:type" content="profile" />
+<meta property="og:site_name" content="Connor Hay" />
+<meta property="og:locale" content="en_ZA" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Connor Hay | Property Practitioner &amp; Protea Karate Athlete" />
+<meta name="twitter:description" content="Candidate Property Practitioner in Hillcrest, KZN, and Protea karate athlete competing in BJJ, MMA, kickboxing, and triathlon." />
 
 <!-- JSON-LD Person Schema -->
 <script type="application/ld+json">
@@ -24,17 +29,24 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Connor Hay",
+  "alternateName": ["Connor Hay Property", "Connor Hay Karate"],
+  "description": "Candidate Property Practitioner at McIntosh Properties in Hillcrest, KwaZulu-Natal, and Protea karate athlete competing in BJJ, MMA, kickboxing, and triathlon.",
   "jobTitle": "Candidate Property Practitioner",
   "worksFor": { "@type": "Organization", "name": "McIntosh Properties Group" },
   "address": { "@type": "PostalAddress", "addressLocality": "Hillcrest", "addressRegion": "KwaZulu-Natal", "addressCountry": "ZA" },
   "url": "https://connorhay.co.za/",
   "email": "connor.mc@mailkzn.co.za",
   "telephone": "+27844486275",
+  "knowsAbout": ["Real Estate", "Property Investment", "Karate", "BJJ", "MMA", "Kickboxing", "Triathlon"],
   "sameAs": [
     "https://www.instagram.com/propertywithconnor/",
     "https://www.instagram.com/conditioningwithconnor/",
     "https://www.youtube.com/@PropertyWithConnor",
     "https://www.youtube.com/@ConnorHay",
+    "https://www.facebook.com/propertywithconnor/",
+    "https://www.facebook.com/profile.php?id=100004501155245",
+    "https://www.tiktok.com/@propertywithconnor",
+    "https://www.tiktok.com/@conditioningwithconnor",
     "https://www.linkedin.com/in/connor-hay-744a50322/",
     "https://www.mcintoshpropertiesgroup.co.za/agentprofile/connor-hay/886490"
   ]
@@ -52,9 +64,10 @@
   :root {
     --cream: #F7F4EF;
     --ink: #1A1A1A;
-    --green: #1A5C2A;
-    --green-light: #2E7D3F;
-    --gold: #C9A84C;
+    --green: #1B2A4A;
+    --green-light: #2C4270;
+    --gold: #97A0AA;
+    --silver-shine: linear-gradient(135deg, #F2F3F5 0%, #C7CCD1 35%, #8B939D 60%, #DADDE1 100%);
     --charcoal: #0E0E0E;
     --dark-surface: #161616;
     --dark-card: #1E1E1E;
@@ -140,9 +153,9 @@
     transition: all 0.2s;
   }
 
-  .nav-cta:hover { background: var(--gold); color: var(--charcoal); }
+  .nav-cta:hover { background: var(--silver-shine); color: var(--charcoal); border-color: #8B939D; }
   nav.dark-nav .nav-cta { color: var(--gold); border-color: var(--gold); }
-  nav.dark-nav .nav-cta:hover { background: var(--gold); color: var(--charcoal); }
+  nav.dark-nav .nav-cta:hover { background: var(--silver-shine); color: var(--charcoal); border-color: #8B939D; }
 
   /* ── HERO — PROPERTY ── */
   #hero {
@@ -184,7 +197,7 @@
 
   .hero-name {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(3.5rem, 9vw, 7.5rem);
+    font-size: clamp(4rem, 10vw, 8.5rem);
     font-weight: 300;
     line-height: 0.95;
     color: var(--ink);
@@ -246,6 +259,23 @@
 
   .btn-ghost:hover { border-color: var(--ink); }
 
+  .hero-actions .btn-ghost {
+    color: var(--charcoal);
+    border: 1.5px solid #8B939D;
+    background: var(--silver-shine);
+    font-weight: 600;
+  }
+
+  .hero-actions .btn-ghost:hover {
+    background: transparent;
+    color: var(--charcoal);
+    border-color: var(--charcoal);
+  }
+
+  .hero-actions .btn-primary {
+    box-shadow: 0 2px 12px rgba(27,42,74,0.25);
+  }
+
   .hero-bg-text {
     position: absolute;
     right: -0.05em;
@@ -255,7 +285,7 @@
     font-size: clamp(8rem, 20vw, 18rem);
     font-weight: 600;
     color: transparent;
-    -webkit-text-stroke: 1px rgba(26,92,42,0.08);
+    -webkit-text-stroke: 1px rgba(27,42,74,0.08);
     line-height: 1;
     pointer-events: none;
     user-select: none;
@@ -283,9 +313,9 @@
   section { position: relative; }
 
   .section-label {
-    font-size: 0.65rem;
-    font-weight: 600;
-    letter-spacing: 0.22em;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.28em;
     text-transform: uppercase;
     margin-bottom: 3rem;
     display: flex;
@@ -316,11 +346,11 @@
   }
 
   .about-left .section-label { color: var(--green); }
-  .about-left .section-label::after { background: rgba(26,92,42,0.15); }
+  .about-left .section-label::after { background: rgba(27,42,74,0.15); }
 
   .about-heading {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: clamp(2.4rem, 5vw, 3.6rem);
     font-weight: 300;
     line-height: 1.2;
     color: var(--ink);
@@ -338,9 +368,14 @@
 
   .about-stats {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     margin-top: 2.5rem;
+  }
+
+  #contact .about-stats,
+  .contact-inner .about-stats {
+    grid-template-columns: 1fr 1fr;
   }
 
   .stat-box {
@@ -402,7 +437,7 @@
   }
 
   .listings-inner .section-label { color: var(--green); }
-  .listings-inner .section-label::after { background: rgba(26,92,42,0.15); }
+  .listings-inner .section-label::after { background: rgba(27,42,74,0.15); }
 
   .listings-intro {
     display: flex;
@@ -415,7 +450,7 @@
 
   .listings-heading {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(2rem, 4vw, 2.8rem);
+    font-size: clamp(2.4rem, 5vw, 3.4rem);
     font-weight: 300;
     color: var(--ink);
     line-height: 1.2;
@@ -520,7 +555,7 @@
     padding: 3rem 2rem;
     font-size: 0.82rem;
     color: var(--muted-light);
-    border: 1.5px dashed rgba(26,92,42,0.2);
+    border: 1.5px dashed rgba(27,42,74,0.2);
     margin-top: 1.5px;
     background: #fff;
   }
@@ -548,7 +583,7 @@
   }
 
   #athlete .section-label::after {
-    background: rgba(26,92,42,0.15);
+    background: rgba(27,42,74,0.15);
   }
 
   .athlete-header {
@@ -637,62 +672,130 @@
   .discipline-card:hover::before { width: 100%; }
 
   .upcoming-race {
-    background: #fff;
-    border: 1px solid rgba(26,92,42,0.2);
-    padding: 2rem 2.5rem;
+    background: var(--charcoal);
+    background-image: linear-gradient(120deg, var(--green) 0%, var(--charcoal) 65%);
+    border: none;
+    border-left: 4px solid var(--gold);
+    padding: 2.5rem 2.75rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
     flex-wrap: wrap;
     margin-bottom: 4rem;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.18);
   }
 
   .race-label {
-    font-size: 0.62rem;
-    font-weight: 600;
-    letter-spacing: 0.2em;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
     text-transform: uppercase;
-    color: var(--green);
+    color: var(--gold);
     margin-bottom: 0.75rem;
   }
 
   .race-name {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 1.9rem;
-    font-weight: 700;
+    font-size: 2.2rem;
+    font-weight: 800;
     text-transform: uppercase;
-    color: var(--ink);
+    color: #fff;
     letter-spacing: 0.02em;
   }
 
   .race-meta {
-    font-size: 0.8rem;
-    color: var(--muted-light);
+    font-size: 0.82rem;
+    color: rgba(255,255,255,0.65);
     margin-top: 0.4rem;
   }
 
   .race-distance {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 3rem;
+    font-size: 3.6rem;
     font-weight: 800;
-    color: var(--green);
+    background: var(--silver-shine);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     line-height: 1;
     text-align: right;
   }
 
   .race-distance span {
     display: block;
-    font-size: 0.7rem;
+    font-size: 0.72rem;
     font-weight: 600;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: var(--muted-light);
+    color: rgba(255,255,255,0.55);
     text-align: right;
-    margin-top: 0.25rem;
+    margin-top: 0.3rem;
   }
 
-  /* ── SOCIALS ── */
+  .partner-block {
+    background: linear-gradient(120deg, var(--green) 0%, var(--charcoal) 100%);
+    border: none;
+    border-left: 6px solid var(--gold);
+    padding: 3rem 2.5rem;
+    border-radius: 2px;
+  }
+
+  #athlete .partner-block .section-label { color: var(--gold); }
+  #athlete .partner-block .section-label::after { background: rgba(151,160,170,0.3); }
+
+  .partner-block .about-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .partner-block .stat-box {
+    border-top: 2px solid var(--gold);
+  }
+
+  .partner-block .hero-actions .btn-primary {
+    background: var(--silver-shine);
+    color: var(--charcoal);
+    font-weight: 600;
+  }
+
+  .partner-block .hero-actions .btn-primary:hover {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  }
+
+  @media (max-width: 800px) {
+    .partner-block .about-stats { grid-template-columns: 1fr; }
+  }
+
+  .partner-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(2.4rem, 5vw, 3.4rem);
+    font-weight: 300;
+    color: var(--ink);
+    line-height: 1.2;
+    margin: 0.5rem 0 1rem;
+  }
+
+  #partner .partner-heading {
+    background: var(--silver-shine);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .partner-heading em { font-style: italic; color: var(--green); }
+  #partner .partner-heading em { color: var(--gold); -webkit-text-fill-color: var(--gold); }
+
+  .partner-block .athlete-tagline { color: rgba(255,255,255,0.75); }
+
+  .partner-block .stat-box {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+  }
+
+  .partner-block .stat-number { color: var(--gold); }
+  .partner-block .stat-label { color: rgba(255,255,255,0.6); }
+
+/* ── SOCIALS ── */
   #socials {
     background: #fff;
     padding: 6rem 2.5rem;
@@ -704,7 +807,7 @@
   }
 
   #socials .section-label { color: var(--green); }
-  #socials .section-label::after { background: rgba(26,92,42,0.15); }
+  #socials .section-label::after { background: rgba(27,42,74,0.15); }
 
   .socials-heading {
     font-family: 'Cormorant Garamond', serif;
@@ -805,11 +908,11 @@
   }
 
   #contact .section-label { color: var(--green); }
-  #contact .section-label::after { background: rgba(26,92,42,0.15); }
+  #contact .section-label::after { background: rgba(27,42,74,0.15); }
 
   .contact-heading {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: clamp(2.4rem, 5vw, 3.6rem);
     font-weight: 300;
     color: var(--ink);
     line-height: 1.2;
@@ -962,14 +1065,20 @@
     #hero { padding: 90px 1.25rem 60px; }
     .hero-credentials { display: none; }
     .hero-bg-text { display: none; }
+    .hero-actions { flex-direction: column; align-items: stretch; }
+    .hero-actions a { text-align: center; }
     #about { padding: 5rem 1.25rem; }
     .about-grid { grid-template-columns: 1fr; gap: 3rem; }
+    .about-stats { grid-template-columns: 1fr; gap: 1rem; }
     #listings { padding: 5rem 1.25rem; }
     .listings-intro { flex-direction: column; align-items: flex-start; }
     .listings-cta-wrap { align-items: flex-start; }
     #athlete { padding: 5rem 1.25rem; }
     .athlete-header { grid-template-columns: 1fr; }
     .athlete-tagline { text-align: left; max-width: 100%; }
+    .partner-block { padding: 2rem 1.25rem; }
+    .partner-block .about-stats { grid-template-columns: 1fr; }
+    .partner-block .hero-actions { flex-direction: row; }
     #socials { padding: 5rem 1.25rem; }
     #contact { padding: 5rem 1.25rem; }
     .contact-inner { grid-template-columns: 1fr; gap: 3rem; }
@@ -979,6 +1088,164 @@
 
   @media (prefers-reduced-motion: reduce) {
     * { transition: none !important; animation: none !important; }
+  }
+
+  /* ── POP PASS ── */
+  .stat-box {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .stat-box:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 16px 36px rgba(27,42,74,0.2);
+  }
+
+  .listing-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border-top: 3px solid var(--green);
+  }
+  .listing-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 24px 48px rgba(27,42,74,0.28);
+  }
+  .listing-card:nth-child(2) { border-top-color: var(--gold); }
+  .listing-card:nth-child(3) { border-top-color: var(--ink); }
+
+  .discipline-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+  }
+  .discipline-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 24px 48px rgba(0,0,0,0.18);
+    background: #fff;
+    z-index: 2;
+    position: relative;
+  }
+  .discipline-icon {
+    transition: transform 0.25s ease;
+  }
+  .discipline-card:hover .discipline-icon {
+    transform: scale(1.15);
+  }
+
+  .partner-block {
+    box-shadow: 0 28px 70px rgba(27,42,74,0.2);
+    border-left-width: 8px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .partner-block:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 36px 80px rgba(27,42,74,0.28);
+  }
+  .partner-block::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    width: 220px;
+    height: 220px;
+    background: var(--silver-shine);
+    opacity: 0.08;
+    border-radius: 50%;
+    transform: translate(60px, -80px);
+  }
+  .partner-block .stat-box:hover {
+    box-shadow: 0 10px 24px rgba(0,0,0,0.1);
+  }
+
+  .contact-method {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .contact-method:hover {
+    transform: translateX(4px);
+    box-shadow: 0 8px 20px rgba(27,42,74,0.1);
+  }
+
+  .social-link {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .social-link:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 18px 36px rgba(27,42,74,0.2);
+  }
+
+  .upcoming-race {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .upcoming-race:hover {
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 0 28px 60px rgba(0,0,0,0.4);
+  }
+
+
+  .achievements-header {
+    background: linear-gradient(120deg, var(--green) 0%, var(--charcoal) 100%);
+    padding: 2.5rem 2.5rem;
+    margin: 4rem -2.5rem 3rem !important;
+    border-left: 6px solid var(--gold);
+  }
+  .achievements-header .section-label { color: var(--gold) !important; }
+  .achievements-header .section-label::after { background: rgba(151,160,170,0.3) !important; }
+  .achievements-header .partner-heading { color: #fff; }
+  .achievements-header .partner-heading em { color: var(--gold); }
+
+  .hero-name { text-shadow: 0 4px 30px rgba(27,42,74,0.15); }
+
+  #statement {
+    background: linear-gradient(120deg, var(--green) 0%, var(--charcoal) 100%);
+    padding: 5rem 2.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(27,42,74,0.25);
+  }
+  #statement::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 6px;
+    background: var(--silver-shine);
+  }
+  #statement::after {
+    content: '';
+    position: absolute;
+    bottom: -100px; right: -60px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background: var(--silver-shine);
+    opacity: 0.1;
+  }
+  .statement-line {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: clamp(1.6rem, 3.2vw, 2.4rem);
+    background: var(--silver-shine);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  @media (max-width: 768px) {
+    #statement { padding: 3.5rem 1.5rem; }
+  }
+
+  .section-divider {
+    height: 10px;
+    background: linear-gradient(120deg, var(--green) 0%, var(--charcoal) 100%);
+    position: relative;
+  }
+  .section-divider::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--silver-shine);
   }
 </style>
 </head>
@@ -999,10 +1266,19 @@
 
 <!-- HERO -->
 <section id="hero">
-  <p class="hero-tagline">Property Practitioner, Competitor, and Creator<br>— based in Hillcrest.</p>
+  <p class="hero-tagline">Candidate Property Practitioner, Competitor, and Creator.</p>
   <h1 class="hero-name">Connor<br><em>Hay</em></h1>
 
+  <div class="hero-actions">
+    <a href="#listings" class="btn-primary">I'm Looking for Property</a>
+    <a href="#partner" class="btn-ghost">Partnership &amp; Sponsorship</a>
+  </div>
+
   <div class="hero-bg-text">CH</div>
+</section>
+
+<section id="statement">
+  <p class="statement-line">Competing for a living<br>&mdash; on the mat, in the market, and for my clients&rsquo; future.</p>
 </section>
 
 <!-- ABOUT -->
@@ -1010,9 +1286,9 @@
   <div class="about-grid">
     <div class="about-left">
       <div class="section-label">About</div>
-      <h2 class="about-heading">Two worlds,<br>one <em>drive</em></h2>
-      <p class="about-body">I'm a Candidate Property Practitioner at McIntosh Properties in Hillcrest, KZN — working with Buyers, Sellers, Renters, Landlords, and Investors to navigate the KwaZulu-Natal property market with clarity and confidence.</p>
-      <p class="about-body">Away from property, I'm a former Protea Karate Athlete now stepping into the worlds of Mixed Martial Arts, and Triathlons! The same discipline I bring to training is what I bring to every property transaction.</p>
+      <h2 class="about-heading">One drive,<br><em>every arena</em></h2>
+      <p class="about-body">I've spent my life competing — as a Protea Karate Athlete, and now in Mixed Martial Arts, and Triathlons. That same discipline is what I bring to real estate: I'm a Candidate Property Practitioner at McIntosh Properties based in Hillcrest. My goal is to help buyers, sellers, renters, landlords, and investors navigate the KZN market with the same preparation I bring to competition day.</p>
+      <p class="about-body">I'm currently completing my BCom in Investment Management, as well as becoming a Certified Associate In Project Management — building toward a future where I can help clients not just buy and sell property, but build long-term wealth through smart investment strategies. Property is where I'm starting. Where I'm going is even bigger...</p>
       <div class="about-stats">
         <div class="stat-box">
           <div class="stat-number">Protea</div>
@@ -1026,63 +1302,56 @@
           <div class="stat-number" style="font-size:1.6rem; line-height:1.2;">Certified Associate in Project Management</div>
           <div class="stat-label">In Progress</div>
         </div>
-        <div class="stat-box">
-          <div class="stat-number">NQF4</div>
-          <div class="stat-label">Real Estate · In Progress</div>
-        </div>
       </div>
     </div>
     
   </div>
 </section>
 
-<!-- CONTACT -->
+<div class="section-divider"></div>
 
 <!-- PROPERTY LISTINGS -->
 <section id="listings">
   <div class="listings-inner">
     <div class="section-label">Property</div>
     <div class="listings-intro">
-      <h2 class="listings-heading">Current<br><em>Listings</em></h2>
+      <h2 class="listings-heading">How I Can<br><em>Help</em></h2>
       <div class="listings-cta-wrap">
         <p class="listings-note">All listings live on McIntosh Properties</p>
         <a href="https://www.mcintoshpropertiesgroup.co.za/agentprofile/connor-hay/886490" target="_blank" rel="noopener" class="btn-listings">
-          View All Listings
+          View My Current Listings
           <svg viewBox="0 0 24 24"><path d="M7 17L17 7M7 7h10v10"/></svg>
         </a>
       </div>
     </div>
     <div class="listing-preview">
       <div class="listing-card">
-        <div class="listing-badge">For Sale</div>
-        <div class="listing-type">Residential</div>
-        <div class="listing-title">Homes</div>
-        <div class="listing-area">Upper Highway, KZN</div>
-        <div class="listing-price">Contact for Price</div>
+        <div class="listing-badge">Buying &amp; Selling</div>
+        <div class="listing-type">For Homeowners</div>
+        <div class="listing-title">Homes in the<br>Upper Highway</div>
+        <div class="listing-price">Local market knowledge, from first viewing to final signature.</div>
       </div>
       <div class="listing-card">
-        <div class="listing-badge">For Sale</div>
-        <div class="listing-type">Investment</div>
-        <div class="listing-title">Development<br>Opportunities</div>
-        <div class="listing-area">Upper Highway, KZN</div>
-        <div class="listing-price">Contact for Price</div>
+        <div class="listing-badge">Investment</div>
+        <div class="listing-type">For Investors</div>
+        <div class="listing-title">Investment<br>Properties</div>
+        <div class="listing-price">Identifying strong opportunities for buyers growing a portfolio.</div>
       </div>
       <div class="listing-card">
-        <div class="listing-badge">Enquire</div>
-        <div class="listing-type">Residential</div>
-        <div class="listing-title">Rental<br>Portfolio</div>
-        <div class="listing-area">Upper Highway, KZN</div>
-        <div class="listing-price">Contact for Price</div>
+        <div class="listing-badge">Renting</div>
+        <div class="listing-type">Tenants &amp; Landlords</div>
+        <div class="listing-title">Rentals &amp;<br>Leasing</div>
+        <div class="listing-price">Matching tenants and landlords, with full support through leasing.</div>
       </div>
     </div>
     <div class="listing-placeholder-note">
-      Live listings updated on McIntosh Properties — click "View All Listings" above to see current stock.
+      Ready to talk property? <a href="#contact" style="color:var(--green); text-decoration:underline;">Get in touch</a> or view my current stock on McIntosh Properties above.
     </div>
   </div>
 </section>
 
 <!-- TRANSITION -->
-<div class="transition-strip"></div>
+<div class="section-divider"></div>
 
 <!-- ATHLETE -->
 <section id="athlete">
@@ -1096,6 +1365,17 @@
         <span>Repeat.</span>
       </h2>
       <p class="athlete-tagline">Former Protea Karate Athlete. Now competing in BJJ, MMA, and Triathlons — and going as hard in the gym as anywhere else.</p>
+    </div>
+
+    <div class="upcoming-race">
+      <div>
+        <div class="race-label">Next Event · 2026</div>
+        <div class="race-name">Garmin 10km Durban Run Series</div>
+        <div class="race-meta">Durban · KwaZulu-Natal, South Africa</div>
+      </div>
+      <div>
+        <div class="race-distance">10<span>kilometres</span></div>
+      </div>
     </div>
 
     <div class="discipline-grid">
@@ -1121,18 +1401,66 @@
       </div>
     </div>
 
-    <div class="upcoming-race">
-      <div>
-        <div class="race-label">Next Race · 2026</div>
-        <div class="race-name">Garmin 10km Durban Run Series</div>
-        <div class="race-meta">Durban · KwaZulu-Natal, South Africa</div>
+    <div class="achievements-header" style="margin: 4rem 0 2rem;">
+      <div class="section-label">Titles &amp; Achievements</div>
+      <h3 class="partner-heading" style="color:var(--gold);">A career built<br><em style="color:var(--gold);">on the podium</em></h3>
+    </div>
+
+    <div class="discipline-grid" style="margin-bottom:4rem;">
+      <div class="discipline-card">
+        <div class="discipline-icon">🥇</div>
+        <div class="discipline-name">Karate — Champion</div>
+        <div class="discipline-detail">Multi-time Provincial, National, and International medalist and champion.</div>
       </div>
-      <div>
-        <div class="race-distance">10<span>kilometres</span></div>
+      <div class="discipline-card">
+        <div class="discipline-icon">🇿🇦</div>
+        <div class="discipline-name">Protea &amp; KZN Teams</div>
+        <div class="discipline-detail">Selected to represent both the Protea national karate team and the KZN provincial team.</div>
+      </div>
+      <div class="discipline-card">
+        <div class="discipline-icon">🥋</div>
+        <div class="discipline-name">1st Dan Black Belt</div>
+        <div class="discipline-detail">Goju Ryu Karate.</div>
+      </div>
+      <div class="discipline-card">
+        <div class="discipline-icon">🚴</div>
+        <div class="discipline-name">Amashova Cycle Classic</div>
+        <div class="discipline-detail">40km finisher ×3, 106km finisher ×1.</div>
+      </div>
+      <div class="discipline-card">
+        <div class="discipline-icon">🥾</div>
+        <div class="discipline-name">Thomas More Long Walk</div>
+        <div class="discipline-detail">55km finisher, completed 3 times.</div>
+      </div>
+      <div class="discipline-card">
+        <div class="discipline-icon">🥊</div>
+        <div class="discipline-name">Judo &amp; Kickboxing</div>
+        <div class="discipline-detail">Gold medalist in local tournaments in both disciplines.</div>
+      </div>
+    </div>
+
+    <div id="partner" class="partner-block">
+      <div class="section-label">Partner With Me</div>
+      <h3 class="partner-heading">Backing an athlete<br>who <em>competes everywhere</em></h3>
+      <p class="athlete-tagline" style="max-width:640px;">Protea karate athlete now competing across BJJ, MMA, kickboxing, and triathlon — plus individual running, cycling, and swimming events. Building an audience across property and performance content. Open to sponsorship, gear partnerships, and event collaborations.</p>
+      <div class="about-stats" style="margin-top:2rem;">
+        <div class="stat-box">
+          <div class="stat-number">7+</div>
+          <div class="stat-label">Disciplines Competed · Karate, BJJ, MMA, Kickboxing, Running, Cycling, Swimming</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">2</div>
+          <div class="stat-label">Content Channels · Property &amp; Performance</div>
+        </div>
+      </div>
+      <div class="hero-actions" style="margin-top:2rem;">
+        <a href="#contact" class="btn-primary">Enquire About Sponsorship</a>
       </div>
     </div>
   </div>
 </section>
+
+<div class="section-divider"></div>
 
 <!-- SOCIALS -->
 <section id="socials">
@@ -1216,6 +1544,8 @@
     </div>
   </div>
 </section>
+
+<div class="section-divider"></div>
 
 <section id="contact">
   <div class="contact-inner">
